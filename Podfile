@@ -2,9 +2,10 @@
 #platform :ios, '8.0'
 use_frameworks!
 
-pod 'HanekeSwift'
-pod 'Parse-iOS-SDK', '~> 1.3'
-pod 'ParseFacebookUtilsV4'
+pod 'Parse'
+pod 'ParseFacebookUtils'
+pod 'ParseUI'
+pod 'NXOAuth2Client', '~> 1.2.8'
 
 target 'RevivalxSwiftToDoList' do
 
